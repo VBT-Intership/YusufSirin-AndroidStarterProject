@@ -3,6 +3,8 @@ package com.srn.androidstarterproject
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.srn.androidstarterproject.Extension.emailToastMessage
+import com.srn.androidstarterproject.Extension.isEmail
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -17,5 +19,4 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
-fun String.isEmail(): Boolean = android.util.Patterns.EMAIL_ADDRESS.matcher(this).matches()
-fun Boolean.emailToastMessage():String=if (this) "Successful" else "Wrong !"
+
