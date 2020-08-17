@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">AndroidStarterProject</string>
     <string name="textEmailCheck">Email Check</string>
+    <string name="buttonEmailCheck">Check</string>
+    <string name="editTextEmailCheck">Enter your e-mail address ...</string>
+
+
 
     Email Check
 </resources>
